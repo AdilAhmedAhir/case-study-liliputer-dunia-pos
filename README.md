@@ -2,14 +2,6 @@
 
 > **Architecture case study.** Source code is private and owned by the client. This repository contains original documentation only: no client code, data, credentials or assets.
 
-## Problem
-
-An indoor theme park needed one system for gate tickets, rides, food counters, advance bookings and back-office reporting, instead of separate tools for each counter.
-
-## Solution
-
-A tender prototype showing an integrated design: a shared catalogue of products and passes, counter POS screens, QR-coded tickets, a booking calendar and a back-office view. It was built to demonstrate the architecture and user flows.
-
 ## Architecture
 
 ```mermaid
@@ -20,6 +12,14 @@ flowchart LR
   CORE --> QR[QR ticket generation]
   BO[Back office and reports] --> CORE
 ```
+
+## Problem
+
+An indoor theme park needed one system for gate tickets, rides, food counters, advance bookings and back-office reporting, instead of separate tools for each counter.
+
+## Solution
+
+A tender prototype showing an integrated design: a shared catalogue of products and passes, counter POS screens, QR-coded tickets, a booking calendar and a back-office view. It was built to demonstrate the architecture and user flows.
 
 ## Modules
 
